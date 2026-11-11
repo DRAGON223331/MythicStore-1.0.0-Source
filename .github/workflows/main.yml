@@ -1,0 +1,37 @@
+
+name: Build MythicStore
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+
+      - name: Download Gradle
+        run: |
+          curl -fL https://services.gradle.org/distributions/gradle-9.2.1-bin.zip -o gradle.zip
+          unzip -q gradle.zip
+
+      - name: Build MythicStore
+        run: ./gradle-9.2.1/bin/gradle --no-daemon clean build
+
+      - name: Upload JAR
+        uses: actions/upload-artifact@v4
+        with:
+          name: MythicStore-1.0.0
+          path: build/libs/MythicStore-1.0.0.jar
