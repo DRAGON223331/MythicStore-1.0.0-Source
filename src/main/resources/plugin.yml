@@ -1,0 +1,19 @@
+name: MythicStore
+version: '1.0.0'
+main: net.gawharasmp.mythicstore.MythicStorePlugin
+api-version: '26.3'
+description: Premium special-item shop for GawharaItems armor bundles, swords, pickaxes and axes.
+author: GawharaSMP
+softdepend: [Vault, GawharaItems]
+commands:
+  mythicstore:
+    description: Opens the MythicStore special shop.
+    usage: /mythicstore [reload]
+    aliases: [mstore, mythic]
+permissions:
+  mythicstore.use:
+    description: Allows opening and purchasing from MythicStore.
+    default: true
+  mythicstore.admin:
+    description: Allows reloading MythicStore configuration.
+    default: op

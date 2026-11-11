@@ -1,0 +1,12 @@
+MYTHICSTORE 1.0.0 VALIDATION
+
+- Parsed plugin.yml and config.yml successfully.
+- 9 armor bundles match the GawharaItems 1.3.1 armor set IDs.
+- 31 individual weapons/tools match ItemType IDs in GawharaItems 1.3.1.
+- All 40 catalogue entries have a configured price.
+- Every configured price is between $300,000 and $1,000,000.
+- All 40 catalogue preview model IDs exist in the GawharaItems Java resource pack.
+- Bundles sort by price and display in a 3x3 grid.
+- Buy-only shop: no sell route is configured.
+
+Build/runtime verification: source-level checks only. A compiled JAR and live Paper/Vault test were not produced in this container.

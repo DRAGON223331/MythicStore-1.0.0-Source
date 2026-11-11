@@ -1,0 +1,9 @@
+GawharaItems 1.3.1 catalog integration
+
+Bundles:
+angel, demon, dragon, gladiator, ice, royal, shadow, viking, warrior
+
+Individual item IDs:
+angel_tool, angel_weapon, battle_spear, demon_tool, demon_weapon, dragon_blade, dragon_tool, dragon_weapon, flame_blade, frost_blade, gladiator_tool, gladiator_weapon, hunter_crossbow, ice_tool, ice_weapon, lightning_blade, lumber_axe, miner_pickaxe, royal_tool, royal_weapon, shadow_blade, shadow_tool, shadow_weapon, spirit_blade, venom_blade, viking_tool, viking_weapon, vital_blade, war_hammer, warrior_tool, warrior_weapon
+
+These IDs were cross-checked against ItemType.java in GawharaItems-Source-1.3.1-Bedrock-Fix.zip.

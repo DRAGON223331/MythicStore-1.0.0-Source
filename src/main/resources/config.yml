@@ -1,0 +1,50 @@
+settings:
+  prefix: '&8[&6&lMythicStore&8] &7'
+  max-quantity: 4
+
+# Buy-only shop. Every configured price is clamped to the 300,000–1,000,000 range.
+# Sell-back is intentionally disabled to prevent the special items from becoming a money farm.
+prices:
+  bundles:
+    viking: 300000
+    warrior: 360000
+    gladiator: 420000
+    shadow: 520000
+    ice: 610000
+    angel: 690000
+    royal: 780000
+    demon: 900000
+    dragon: 1000000
+  items:
+    miner_pickaxe: 300000
+    lumber_axe: 330000
+    warrior_tool: 380000
+    viking_tool: 400000
+    gladiator_tool: 450000
+    shadow_tool: 520000
+    ice_tool: 590000
+    angel_tool: 640000
+    royal_tool: 710000
+    demon_tool: 840000
+    dragon_tool: 920000
+
+    frost_blade: 330000
+    gladiator_weapon: 400000
+    viking_weapon: 430000
+    warrior_weapon: 440000
+    venom_blade: 460000
+    hunter_crossbow: 480000
+    spirit_blade: 520000
+    shadow_weapon: 530000
+    battle_spear: 550000
+    vital_blade: 570000
+    ice_weapon: 600000
+    shadow_blade: 620000
+    angel_weapon: 650000
+    flame_blade: 680000
+    lightning_blade: 720000
+    royal_weapon: 760000
+    war_hammer: 790000
+    demon_weapon: 850000
+    dragon_blade: 950000
+    dragon_weapon: 980000
